@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "title": "Today's Last Straw",
+  "hook": {
+    "en": "Drop your own face between three familiar workplace disasters.",
+    "zh": "把自己的头像投入三种熟悉的职场灾难，看今天哪一种会落到你头上。"
+  },
+  "revealMode": "visible_candidates",
+  "control": {
+    "action": "drop",
+    "commitment": "Tap once to release the current player's avatar into the Plinko field.",
+    "thresholds": [34, 68]
+  },
+  "resultLabelTiming": "after_commit",
+  "resultCaptionTiming": "video_ended",
+  "repeatPolicy": "exclude_previous",
+  "identityEntry": "The current player's avatar is the physical Plinko puck that receives the result.",
+  "qaOverride": "outcome",
+  "results": [
+    {
+      "id": "boss",
+      "label": "THE BOSS",
+      "emotionalRisk": "A boss publicly packs the protagonist's desk into a cardboard box.",
+      "payoffType": "status-reversal",
+      "turn": "The company owner arrives and makes the abusive boss pack his own box instead.",
+      "videoTime": 10,
+      "beats": [
+        "The boss drops the protagonist's belongings into a box.",
+        "Coworkers watch the public firing without intervening.",
+        "The company owner enters and identifies the actual problem.",
+        "The boss leaves carrying his own box while the protagonist stays."
+      ],
+      "media": {
+        "start": "public/generated/boss_start.webp",
+        "end": "public/generated/boss_end.webp",
+        "video": "public/generated/boss_result.mp4"
+      }
+    },
+    {
+      "id": "reply",
+      "label": "REPLY ALL",
+      "emotionalRisk": "An accidental all-company message appears to expose the protagonist publicly.",
+      "payoffType": "social-repair",
+      "turn": "Coworkers recognize stolen work in the message and stand with the protagonist.",
+      "videoTime": 10,
+      "beats": [
+        "Office phones light up with the accidental message.",
+        "Coworkers read while the protagonist expects humiliation.",
+        "The group recognizes evidence that her work was stolen.",
+        "Coworkers gather beside her instead of laughing."
+      ],
+      "media": {
+        "start": "public/generated/reply_start.webp",
+        "end": "public/generated/reply_end.webp",
+        "video": "public/generated/reply_result.mp4"
+      }
+    },
+    {
+      "id": "coffee",
+      "label": "THE SPILL",
+      "emotionalRisk": "The protagonist is blamed for spilling an entitled coworker's coffee.",
+      "payoffType": "absurd-relief",
+      "turn": "The accuser steps onto his own spill and safely slides to the floor.",
+      "videoTime": 10,
+      "beats": [
+        "Coffee spills and the coworker immediately blames the protagonist.",
+        "He continues accusing her while standing beside the wet patch.",
+        "He steps backward onto the spill he caused.",
+        "He safely slides into a seated position as the accusation collapses."
+      ],
+      "media": {
+        "start": "public/generated/coffee_start.webp",
+        "end": "public/generated/coffee_end.webp",
+        "video": "public/generated/coffee_result.mp4"
+      }
+    }
+  ]
+}
