@@ -1,0 +1,7 @@
+{
+  "endpoint": "https://chat.aiwaves.tech/aigram/api/gen-image",
+  "origin": "https://aigram.app",
+  "ref_url": "https://cdn.aiwaves.tech/prod/telegram/avatar/0/1785671053485353.webp",
+  "prompt": "Edit the supplied square poster while preserving the exact composition, people, colors, title lettering, lighting and every object. Remove only the tiny red circled pseudo-trademark glyph immediately to the right of the final W in LAST STRAW and replace that tiny area with perfectly matching plain cream background. The only visible typography after the edit must be the exact two-line title TODAY'S LAST STRAW. Also do not add any copyright, registered, trademark, warning, label, logo, watermark, letters or symbols anywhere. No other visual change.",
+  "response_url": "https://cdn.aiwaves.tech/prod/telegram/avatar/0/1785671371674172.webp"
+}

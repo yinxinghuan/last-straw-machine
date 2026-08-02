@@ -1,0 +1,12 @@
+.ls-result__bottom {
+  opacity: 0;
+  transform: translateY(18px);
+  pointer-events: none;
+  transition: opacity 240ms ease-out, transform 240ms ease-out;
+}
+
+.ls-result.resolved .ls-result__bottom {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
